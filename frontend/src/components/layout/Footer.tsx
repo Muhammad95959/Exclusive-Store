@@ -6,9 +6,9 @@ export default function Footer() {
       <div className="container">
         <div className="container flex gap-10 justify-between border-b border-[#B3B3B3] pb-6">
           <div className="text-white">
-            <div className="font-[Inter] font-bold text-4xl h-10">Exclusive</div>
+            <div className="font-[Inter] font-bold text-4xl h-10">XStore</div>
             <p className="font-medium mt-4 max-w-[600px]">
-              Exclusive is a sleek online store focused on premium tech products, offering curated smartphones, laptops,
+              Exclusive Store is a sleek online store focused on premium tech products, offering curated smartphones, laptops,
               and smart-home gadgets. It’s the go-to spot for anyone looking to upgrade their digital setup.
             </p>
           </div>
@@ -32,7 +32,7 @@ export default function Footer() {
           <div></div>
         </div>
         <p className="text-[#B3B3B3] text-center pt-6 font-medium">
-          Copyright 2025 &copy; Exclusive - Created by {" "}
+          Copyright 2025 &copy; XStore - Created by {" "}
           <a target="_blank" href="https://github.com/Muhammad95959" className="text-cyan-300 hover:underline">Muhammad Hefzey</a>
         </p>
       </div>

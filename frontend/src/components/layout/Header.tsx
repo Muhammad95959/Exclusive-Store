@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div className="border-b border-[#B3B3B3] py-6 flex items-center justify-center">
       <div className="container flex justify-between items-center">
-        <div className="font-[Inter] font-bold text-2xl">Exclusive</div>
+        <div className="font-[Inter] font-bold text-2xl">XStore</div>
         <ul className="flex gap-12">
           <li className="hover:underline"><Link to="/">Home</Link></li>
           <li className="hover:underline"><Link to="/contact">Contact</Link></li>
