@@ -36,9 +36,9 @@ export default function Header(props: { showIcons: boolean }) {
               <button>
                 <img src={heartIcon} />
               </button>
-              <button>
+              <Link to="/cart">
                 <img src={cartIcon} />
-              </button>
+              </Link>
             </>
           )}
         </div>
