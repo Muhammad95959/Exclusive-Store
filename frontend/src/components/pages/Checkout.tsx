@@ -1,7 +1,7 @@
+import paymentsImage from "../../assets/payments-image.png";
+import { products } from "../../data/products";
 import Footer from "../layout/Footer";
 import Header from "../layout/Header";
-import { products } from "../../data/products";
-import paymentsImage from "../../assets/payments-image.png";
 
 const productsSublist = [...products].sort(() => Math.random() - 0.5).slice(0, 2);
 
@@ -77,7 +77,7 @@ export default function Checkout() {
                     <div key={index} className="flex justify-between items-center gap-4">
                       <div className="flex gap-4 items-center">
                         <img src={product.image} className="w-12 h-12 object-contain" />
-                        <p>{product.name}</p>
+                        <p className="max-w-[320px]">{product.name}</p>
                       </div>
                       <p>${product.price}</p>
                     </div>
@@ -131,7 +131,12 @@ export default function Checkout() {
                   Apply Coupon
                 </button>
               </div>
-              <button type="submit" className="mt-5 py-4 px-15 text-sm font-medium bg-[#DB4444] text-white rounded-sm cursor-pointer hover:opacity-90">Place Order</button>
+              <button
+                type="submit"
+                className="mt-5 py-4 px-15 text-sm font-medium bg-[#DB4444] text-white rounded-sm cursor-pointer hover:opacity-90"
+              >
+                Place Order
+              </button>
             </div>
           </form>
         </div>

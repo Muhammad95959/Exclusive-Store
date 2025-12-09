@@ -1,7 +1,7 @@
-import searchIcon from "../../assets/icon-search.svg";
-import heartIcon from "../../assets/icon-heart.svg";
-import cartIcon from "../../assets/icon-cart.svg";
 import { Link } from "react-router-dom";
+import cartIcon from "../../assets/icon-cart.svg";
+import heartIcon from "../../assets/icon-heart.svg";
+import searchIcon from "../../assets/icon-search.svg";
 
 export default function Header(props: { showIcons: boolean }) {
   return (

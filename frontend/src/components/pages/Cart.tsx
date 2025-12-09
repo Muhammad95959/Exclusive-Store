@@ -1,6 +1,6 @@
+import { products } from "../../data/products";
 import Footer from "../layout/Footer";
 import Header from "../layout/Header";
-import { products } from "../../data/products";
 
 const productsSublist = [...products].sort(() => Math.random() - 0.5).slice(0, 2);
 
@@ -30,7 +30,7 @@ export default function Cart() {
                       <input
                         type="number"
                         className="text-center border border-[#B3B3B3] block w-20 p-2 rounded-sm"
-                        min={1}
+                        defaultValue={1}
                       />
                     </div>
                     <p className="flex-1/4 text-right">${product.price}</p>

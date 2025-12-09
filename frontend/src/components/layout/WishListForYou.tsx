@@ -1,6 +1,6 @@
-import { products } from "../../data/products";
-import eyeIcon from "../../assets/icon-eye.svg";
 import cartIcon from "../../assets/icon-cart.svg";
+import eyeIcon from "../../assets/icon-eye.svg";
+import { products } from "../../data/products";
 import RatingStars from "../ui/RatingStars";
 
 const productsSublist = [...products].sort(() => Math.random() - 0.5).slice(0, 4);
